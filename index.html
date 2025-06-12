@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="principal">
+        <h1>Cadastro</h1>
+    
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="sexo">Sexo</label>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+
+            <label for="data_nasc">Data de Nascimento</label>
+            <input type="date" id="data_nasc" name="data_nasc">
+            
+            <label for="whatssap">Whatssap</label>
+            <input type="text" id="whatss" name="whatts" required>
+            <input type="submit" value="submit">
+
+            <label for="gmail">Gmail</label>
+            <input type="text" id="gmail" name="gmail" required>
+            
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" required>
+            <select id="estado" name="estado">
+                <option value="pr">PR</option>
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+                <option value="rs">RS</option>
+                <option value="sc">SC</option>
+                <option value="es">ES</option>
+            <select>
+            <br><br>
+            <label for="cep">Cep</label>
+            <input type="text" id="cep" name="cep" required>
+
+
+            <div class="perguntas">
+                <h2>Perguntas<h2>
+                <p>Na sua casa tem uma geladeira?</p>
+        
+                <input type="radio" id="p1" name="perguntas01">
+                <label for="p1">Sim</label>
+                <input type="radio" id="p1" name="perguntas01">
+                <label for="p1">Não</label>
+                <br><br>
+
+                <p>Na sua casa possui internet?</p>
+                <input type="radio" id="p2" name="perguntas02">
+                <label for="p2">Sim</label>
+                <input type="radio" id="p2" name="perguntas02">
+                <label for="p2">Não</label>
+                
+                <p>Na sua casa tem uma geladeira?</p>
+                <input type="radio" id="p3" name="perguntas03">
+                <label for="p3">Sim</label>
+                <input type="radio" id="p3" name="perguntas03">
+                <label for="p3">Não</label>
+
+                <p>Qual a renda familiar?</p>
+                <input type="checkbox" id="p1" name="perguntas">
+                <label for="p1">Entre R$1234,90 á 2334,90</label>
+                    <br>
+                <input type="checkbox" id="p2" name="perguntas">
+                <label for="p2">Entre R$2435,70 á 2987,50</label>
+                    <br>
+                <input type="checkbox" id="p3" name="perguntas">
+                <label for="p3">Entre R$4321,78 á 5432,67</label>
+                <br>
+                <input type="checkbox" id="p4" name="perguntas">
+                <label for="p4">Entre R$5678,90 á 6547,90</label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
